@@ -1,0 +1,47 @@
+style
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Aref Ruqaa Ink", serif;
+}
+
+.aref-ruqaa ink-regular {
+    font-family: "Aref Ruqaa Ink", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+:root {
+    --background-url: url(./img/bg.png);
+}
+
+body {
+    font-family: "Aref Ruqaa Ink", serif;
+    font-weight: 600;
+    font-style: normal;
+    background: var(--background-url) repeat;
+    background-size: 100%;
+}
+
+h1 {
+    font-family: "Aref Ruqaa Ink", serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5px;
+    color: #8B008B; /* Cor roxa */
+}
+
+section {
+    text-align: center;
+    font-size: 20px
+}
+
+main {
+    justify-content: center;
+    background-color: #c594c588;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 170px;
+}
